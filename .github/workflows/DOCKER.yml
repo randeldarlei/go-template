@@ -25,4 +25,4 @@ jobs:
        context: .
        file: ./Dockerfile
        push: true
-       tags: sickbanger/go_ci:${{githu.ref_name}}
+       tags: sickbanger/go_ci:${{github.ref_name}}
